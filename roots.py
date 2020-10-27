@@ -41,7 +41,7 @@ def quad_roots(a=1.0, b=2.0, c=0.0):
     roots: 2-tuple of complex floats
        Has the form (root1, root2) unless a = 0 
        in which case a ValueError exception is raised
-    
+     
     EXAMPLES
     =========
     >>> quad_roots(1.0, 1.0, -12.0)
